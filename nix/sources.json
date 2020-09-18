@@ -1,44 +1,50 @@
 {
+    "haskellNix": {
+        "branch": "master",
+        "description": "Alternative Haskell Infrastructure for Nixpkgs",
+        "homepage": "https://input-output-hk.github.io/haskell.nix",
+        "owner": "input-output-hk",
+        "repo": "haskell.nix",
+        "rev": "4f875ebe99c5a068b6276809c8e822e40018935d",
+        "sha256": "05kq921cfnfakdlq23pvmzr4fdm2qanadbsnibwgz267hvi41x6n",
+        "type": "tarball",
+        "url": "https://github.com/input-output-hk/haskell.nix/archive/4f875ebe99c5a068b6276809c8e822e40018935d.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "niv": {
         "branch": "master",
         "description": "Easy dependency management for Nix projects",
         "homepage": "https://github.com/nmattia/niv",
         "owner": "nmattia",
         "repo": "niv",
-        "rev": "89ae775e9dfc2571f912156dd2f8627e14d4d507",
-        "sha256": "0ssw6byyn79fpyzswi28s5b85x66xh4xsfhmcfl5mkdxxpmyy0ns",
+        "rev": "29ddaaf4e099c3ac0647f5b652469dfc79cd3b53",
+        "sha256": "1va6myp07gkspgxfch8z3rs9nyvys6jmgzkys6a2c4j09qxp1bs0",
         "type": "tarball",
-        "url": "https://github.com/nmattia/niv/archive/89ae775e9dfc2571f912156dd2f8627e14d4d507.tar.gz",
+        "url": "https://github.com/nmattia/niv/archive/29ddaaf4e099c3ac0647f5b652469dfc79cd3b53.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "nixpkgs": {
-        "ref": "bodhi",
-        "repo": "git@gitlab.tryp.io:nix/nixpkgs",
-        "rev": "41f90ca6709e241ce33afaa9332629883c3f290d",
-        "type": "git"
-    },
-    "polysemy": {
         "branch": "master",
-        "description": ":gemini: higher-order, no-boilerplate monads",
-        "homepage": "",
-        "owner": "polysemy-research",
-        "repo": "polysemy",
-        "rev": "de19721ef5d3dc64d50a1571c45d933e7f17305a",
-        "sha256": "18ylw7b3b2v0dsjandkryn2sqf3jif6d0zbclgjvrcixpzqyfi1n",
+        "description": "Nix Packages collection",
+        "homepage": null,
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "61d75820cc77ae1e50cebb4e3102d9b2ebab173b",
+        "sha256": "0zbm0dlfh58snq4mq4ania59wgplm0hl6xyx8nz4gjv10jz4bvlw",
         "type": "tarball",
-        "url": "https://github.com/polysemy-research/polysemy/archive/de19721ef5d3dc64d50a1571c45d933e7f17305a.tar.gz",
+        "url": "https://github.com/NixOS/nixpkgs/archive/61d75820cc77ae1e50cebb4e3102d9b2ebab173b.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
-    "tryp-hs": {
-        "branch": "master",
-        "description": null,
+    "unstable": {
+        "branch": "nixos-unstable",
+        "description": "Nix Packages collection",
         "homepage": null,
-        "owner": "tek",
-        "repo": "tryp-hs",
-        "rev": "9611e883161fcec50710741c2edd39849c88d00a",
-        "sha256": "0cdxnaif4q01b3p44xbfx5iglwyb9rb8a0c5gr8giac76r1jp4kf",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "441a7da8080352881bb52f85e910d8855e83fc55",
+        "sha256": "0093drxn7blw4hay41zbqzz1vhldil5sa5p0mwaqy5dn08yn4y3q",
         "type": "tarball",
-        "url": "https://github.com/tek/tryp-hs/archive/9611e883161fcec50710741c2edd39849c88d00a.tar.gz",
+        "url": "https://github.com/NixOS/nixpkgs/archive/441a7da8080352881bb52f85e910d8855e83fc55.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     }
 }
