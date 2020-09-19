@@ -1,0 +1,7 @@
+packages: ./*.cabal
+
+source-repository-package
+        type: git
+        location: https://github.com/galagora/text-conversions.git
+        tag: b1cc38775d7d18743825e2792727fe1f9e8ddbef
+        --sha256: 1yl2s1p8y3cz0shc23hsgvqc67j0gc1n9dxrfmyaf3x1dqjqn5wb
